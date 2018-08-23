@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color: #262C15;
+  line-height: 1.6;
+}
+
+
+#showcase { 
+  background-image: url("https://images.pexels.com/photos/265903/pexels-photo-265903.jpeg?cs=srgb&dl=banquet-catering-celebration-265903.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.showcase-box {
+  margin-top: 10px;
+  padding: 26px 26px 26px 26px;
+    background-color: #ffffff;
+    border: 2px solid #CB6F85;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+
+#showcase h1 {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 1.2;
+  
+}
+
+#showcase p {
+  font-size: 25px;
+  padding-bottom: 5px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #262C15;
+  border: #262C15 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#showcase .button:hover {
+  background: #262C15;
+  color: #fff;
+}
+
+
+#section-a {
+  padding: 20px 20px 20px 20px;
+  background: #E1C79B;
+  text-align: center;
+}
+
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  padding: 20px;
+  grid-gap: 10px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+  background: #E1C79B;
+}
+
+
+.a {
+  background-color: #E7C06F;
+  padding: 20px;
+
+}
+
+.b {
+  background-color: #fff;
+  padding: 20px;
+
+}
+
+.c {
+  background-color: #E7C06F;
+  padding: 20px;
+
+}
+
+
+.fas {
+  color: #486427; 
+  font-size: 60px;
+  padding-bottom: 20px;
+
+}
+
+#footer {
+  background: #E1C79B;
+  text-align: center;
+  padding:20px;
+    
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+      -ms-grid-columns: 1fr;
+          grid-template-columns: 1fr; 
+      padding-top: 10px;
+   }
+
+  .fas {
+    font-size: 30px;
+  }
+}
